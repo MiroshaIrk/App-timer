@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Секундомер</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="timer">
+
+      <div class="timer__block">
+        <div class="time hours">00</div>
+        <div class="title">Часы</div>
+      </div>
+
+      <div class="timer__block">
+        <div class="time minutes">00</div>
+        <div class="title">Минуты</div>
+      </div>
+
+      <div class="timer__block">
+        <div class="time seconds">00</div>
+        <div class="title">Секунды</div>
+      </div>
+
+      <div class="timer__block">
+        <div class="time milliseconds">00</div>
+        <div class="title">Милисекунды</div>
+      </div>
+
+    </div>
+
+    <div class="buttons">
+      <button class="button start">Старт</button>
+      <button class="button pause">Пауза</button>
+      <button class="button stop">Стоп</button>
+      <button class="button new" disabled>New</button>
+    </div>
+
+  </div>
+
+  <div class="results__block">
+    <div class="result__title">Результаты:</div>
+    <div class="results"></div>
+  </div>
+
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
